@@ -1,0 +1,13 @@
+.card{
+    width:85%;
+    margin: auto;
+    background-color:rgb(235, 235, 235);
+    color: rgb(93, 93, 93);
+}
+
+img{
+    height: 20rem;
+}
+.subtitle{
+    color: rgb(130, 128, 128);
+}
