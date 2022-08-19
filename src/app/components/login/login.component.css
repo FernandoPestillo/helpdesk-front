@@ -1,0 +1,39 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+.container{
+    height: 100%;
+    background: linear-gradient(180deg, rgba(85,213,85,1) 0%, rgba(43,195,210,1) 25%, rgba(64,191,255,1) 50%, rgba(5,127,215,1) 75%, rgba(16,78,146,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    width: 35rem;
+    margin: auto;
+    background-color: rgb(230, 230, 230);
+    padding: 4rem 1rem;
+    border-radius: 1rem;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+.full-width{
+    width: 100%;
+}
+
+img{
+    height: 12rem;
+    width: 100%;
+    margin: .5rem auto .5rem auto;
+}
+
+button{
+    margin-top: 1.5rem;
+}
+
+input{
+    color: black;
+}
