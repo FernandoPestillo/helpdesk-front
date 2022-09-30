@@ -44,6 +44,7 @@ import { ClienteListComponent } from './components/cliente/cliente-list/cliente-
 import { ClienteCreateComponent } from './components/cliente/cliente-create/cliente-create.component';
 import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
 import { ChamadoListComponent } from './components/chamado/chamado-list/chamado-list.component';
+import { ChamadoCreateComponent } from './components/chamado-create/chamado-create.component';
 
 
 export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
@@ -63,7 +64,8 @@ export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
     ClienteCreateComponent,
     ClienteUpdateComponent,
     ClienteDeleteComponent,
-    ChamadoListComponent
+    ChamadoListComponent,
+    ChamadoCreateComponent
   ],
   imports: [
     BrowserModule,
