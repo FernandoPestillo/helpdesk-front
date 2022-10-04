@@ -24,8 +24,8 @@ table {
     color: rgba(43,195,210,1);
   }
 
-  .delete{
-    color: rgb(213, 57, 57);
+  .read{
+    color: rgb(94, 212, 47);
   }
 
   mat-radio-group{
