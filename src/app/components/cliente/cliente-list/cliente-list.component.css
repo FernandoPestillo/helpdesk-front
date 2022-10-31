@@ -5,6 +5,12 @@
 table {
     width: 100%;
   }
+  .mat-column-id, .mat-column-nome, .mat-column-cpf, .mat-column-email, .mat-column-acoes,
+ .mat-column-filter, .filter,  .mat-stroked-button{
+  background-color: var(--contraste);
+  color: var(--text-body);
+}
+
   
   mat-form-field{
     width: 100%;
@@ -27,3 +33,11 @@ table {
   .delete{
     color: rgb(212, 69, 47);
   }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+  -webkit-box-shadow: 0 0 0 30px var(--body) inset !important;
+  -webkit-text-fill-color: var(--text-body) !important;
+}

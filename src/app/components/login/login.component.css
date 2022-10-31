@@ -1,6 +1,5 @@
-@import '@angular/material/prebuilt-themes/indigo-pink.css';
-
 .container{
+    position:relative;
     height: 100%;
     background: linear-gradient(180deg, rgba(85,213,85,1) 0%, rgba(43,195,210,1) 25%, rgba(64,191,255,1) 50%, rgba(5,127,215,1) 75%, rgba(16,78,146,1) 100%);
     display: flex;
@@ -11,33 +10,51 @@
 .form{
     width: 35rem;
     margin: auto;
-    background-color: rgb(230, 230, 230);
+    background-color: var(--contraste);
     padding: 4rem 1rem;
     border-radius: 1rem;
-    color: black;
 }
 
 h1{
     text-align: center;
+    color: var(--title);
 }
 .full-width{
     width: 100%;
 }
 
-img{
+svg{
     height: 12rem;
     width: 100%;
     margin: .5rem auto .5rem auto;
+    fill: var(--text-body);
 }
 
 button{
     margin-top: 1.5rem;
 }
+.mat-stroked-button{
+    background-color: var(--contraste);
+}
 
 input{
-    color: black;
+    color: var(--text-body);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px var(--contraste) inset !important;
+    -webkit-text-fill-color: var(--text-body) !important;
 }
 
 mat-icon{
     opacity: 0.6;
+    color: var(--text-body);
+}
+
+.noturno{
+    text-align: center;
+    padding-top: 2rem;
+    color: var(--text-body);
 }

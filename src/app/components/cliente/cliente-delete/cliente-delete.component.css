@@ -3,6 +3,8 @@
     margin: auto;
     padding: 1rem 1rem 3rem 1rem;
     border-radius: .6rem;
+    background-color: var(--contraste);
+    color: var(--text-body);
 }
 
 .fullWidth{
@@ -13,10 +15,12 @@ h1{
     text-align: center;
 }
 
-img{
+svg{
     height: 7rem;
+    width: 100%;
     margin: auto;
     margin-top: 1rem;
+    fill: var(--text-body);
 }
 
 .section{

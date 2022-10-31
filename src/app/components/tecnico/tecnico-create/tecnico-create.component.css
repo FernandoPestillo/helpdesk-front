@@ -3,6 +3,8 @@
     margin: auto;
     padding: 1rem 1rem 3rem 1rem;
     border-radius: .6rem;
+    background-color: var(--contraste);
+    color: var(--text-body);
 }
 
 .fullWidth{
@@ -13,10 +15,12 @@ h1{
     text-align: center;
 }
 
-img{
+svg{
     height: 7rem;
+    width: 100%;
     margin: auto;
     margin-top: 1rem;
+    fill: var(--text-body);
 }
 
 .section{
@@ -32,4 +36,13 @@ button{
 
 mat-icon{
     opacity: 0.7;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px var(--contraste) inset !important;
+    -webkit-text-fill-color: var(--text-body) !important;
+
 }

@@ -3,6 +3,8 @@
     margin: auto auto 3rem auto;
     padding: 1rem;
     border-radius: 1rem;
+    background-color: var(--contraste);
+    color: var(--text-body);
 }
 
 .fullWidth{
@@ -13,8 +15,10 @@ h1, img {
     text-align: center;
 }
 
-img {
+svg {
     height: 11rem;
+    width: 100%;
+    fill: var(--text-body);
 }
 
 .status-prioridade{

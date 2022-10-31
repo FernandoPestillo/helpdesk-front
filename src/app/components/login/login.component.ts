@@ -43,4 +43,9 @@ export class LoginComponent implements OnInit {
     return this.email.valid && this.senha.valid
   }
 
+  public toggleTheme() {
+    const theme = document.body.classList.toggle('dark');
+
+  }
+
 }

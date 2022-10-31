@@ -5,6 +5,12 @@
 table {
     width: 100%;
   }
+
+.mat-column-id, .mat-column-titulo, .mat-column-cliente, .mat-column-tecnico, .mat-column-acoes, .mat-column-dataAbertura , .mat-column-prioridade , .mat-column-status,
+.mat-column-filter, .filter,  .mat-stroked-button{
+ background-color: var(--contraste);
+ color: var(--text-body);
+}
   
   mat-form-field{
     width: 100%;
@@ -33,3 +39,11 @@ table {
     justify-content: space-around;
     margin-bottom: 1rem;
   }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+  -webkit-box-shadow: 0 0 0 30px var(--body) inset !important;
+  -webkit-text-fill-color: var(--text-body) !important;
+}

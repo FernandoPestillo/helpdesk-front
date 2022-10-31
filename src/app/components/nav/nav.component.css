@@ -1,24 +1,69 @@
 .container{
-    height:100%;
+    height: 100%;
+    color: var(--text-body);
+}
+
+.mat-drawer-container{
+    background-color: var(--body);
 }
 
 .sidenav{
     width:13rem;
-    color: white;
-    background: linear-gradient(180deg, rgba(85,213,85,1) 0%, rgba(43,195,210,1) 25%, rgba(64,191,255,1) 50%, rgba(5,127,215,1) 75%, rgba(16,78,146,1) 100%);
+    color: var(--text-body);
+    background-color: var(--sidenav);
+    /* background: linear-gradient(180deg, rgba(85,213,85,1) 0%, rgba(43,195,210,1) 25%, rgba(64,191,255,1) 50%, rgba(5,127,215,1) 75%, rgba(16,78,146,1) 100%); */
+}
+
+.sidenav-content{
+    background-color: var(--body);
+    color: var(--text-body);
+    margin-bottom: 2rem;
+}
+
+.banner{
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 img{
-    width: 100%;
-    height:7rem;
-    margin: .8rem auto 1rem auto;
+    margin: .5rem .3rem 0 2rem;
+    height: 3rem;
+}
+svg{
+    margin: .5rem .3rem 0 12.5%;
+    height: 3rem;
+    fill: var(--title);
+}
+
+h1{
+    margin: .5rem 0 0 0;
+    text-align: center;
+    font-weight: 800;
+    color: var(--title);
 }
 
 .sidenav i{
     margin-right: .5rem;
 }
+.sidenav a{
+    color: var(--text-body);
+}
+
 .menu{
     margin: 1rem auto .5rem 1rem;
-    color: black;
-    background: white
+    color: var(--text-body);
+    background: var(--body);
+}
+
+.noturno{
+    text-align: center;
+    bottom: 0; 
+    padding-top: 20rem;
+    color: var(--text-body);
+}
+.legenda{
+    color: var(--text-body);
 }
