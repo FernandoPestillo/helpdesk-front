@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
+To preview the project access: https://helpdesk-front-4xatd56u3-fernandopestillo.vercel.app/login
+
+Admin login = email: admin@mail.com password: 123
+
+User login = email: user@mail.com password: 123
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
