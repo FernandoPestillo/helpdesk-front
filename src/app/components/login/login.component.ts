@@ -26,7 +26,9 @@ export class LoginComponent implements OnInit {
     private service: AuthService,
     private router: Router) { }
 
-  ngOnInit(): void { }
+  ngOnInit(): void { 
+    this.darkCheck();
+   }
 
   logar() {
     this.service.authenticate(this.creds).subscribe(resposta => {
@@ -44,8 +46,17 @@ export class LoginComponent implements OnInit {
   }
 
   public toggleTheme() {
-    const theme = document.body.classList.toggle('dark');
+    document.body.classList.toggle('dark');
 
+  }
+
+  ativo = 'true';
+  darkCheck() {
+    if (document.body.classList.contains('dark')) {
+      this.ativo = 'true';
+    } else {
+      this.ativo = 'false';
+    }
   }
 
 }

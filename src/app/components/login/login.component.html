@@ -32,7 +32,7 @@
         <button (click)="logar()" [disabled]="!validaCampos()" class="full-width mat-elevation-z2" mat-stroked-button color="primary">Login</button>
 
         <div class="noturno">
-          <mat-slide-toggle (click)="toggleTheme()" color="accent" class="legenda">Modo noturno</mat-slide-toggle>          
+          <mat-slide-toggle [checked]="ativo" (click)="toggleTheme()" color="accent" class="legenda">Modo noturno</mat-slide-toggle>          
         </div>
       </form>      
 </div>

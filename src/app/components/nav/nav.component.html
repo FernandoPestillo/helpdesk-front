@@ -38,7 +38,7 @@
       </mat-nav-list>
       
       <div class="noturno">
-        <mat-slide-toggle (click)="toggleTheme()" color="accent" class="legenda">Modo noturno</mat-slide-toggle>          
+        <mat-slide-toggle [checked]="ativo" (click)="toggleTheme()" color="accent" class="legenda">Modo noturno</mat-slide-toggle>          
       </div>
 
     </mat-drawer>
@@ -47,7 +47,7 @@
   
     <div class="sidenav-content">
       <app-header></app-header>
-      <button class="menu mat-elevation-z12"(click)="drawer.toggle()" mat-icon-button>
+      <button class="menu mat-elevation-z12" (click)="drawer.toggle()" mat-icon-button>
         <mat-icon>menu</mat-icon>
       </button>
       <router-outlet></router-outlet>
