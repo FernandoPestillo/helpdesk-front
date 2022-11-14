@@ -8,11 +8,43 @@
 }
 
 .form{
+    position: absolute;
+    z-index: 2;
     width: 35rem;
     margin: auto;
     background-color: var(--contraste);
     padding: 4rem 1rem;
     border-radius: 1rem;
+}
+
+.hint{
+    /* top: -4rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    background-color: var(--primary);
+    border-radius: 1rem;
+    width: 30%;
+    margin: 0 0 30rem 40rem;
+    padding: 0.5rem;
+    transform: translate(-30%,5%);
+}
+.hint-popup{
+    transform: translate(30%,5%)
+}
+.hint-text{
+    padding-left: 4rem;
+}
+.hint-title{
+    padding-left: 4rem;
+    font-weight: bold;
+}
+
+button mat-icon{
+    opacity: 1;
 }
 
 h1{
@@ -30,9 +62,6 @@ svg{
     fill: var(--text-body);
 }
 
-button{
-    margin-top: 1.5rem;
-}
 .mat-stroked-button{
     background-color: var(--contraste);
 }

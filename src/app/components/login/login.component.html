@@ -13,7 +13,7 @@
           name="email"
           type="email" 
           matInput 
-          placeholder="lalau@email.com">
+          placeholder="admin@mail.com">
           <mat-icon matSuffix>email</mat-icon>
         </mat-form-field>
       
@@ -35,4 +35,17 @@
           <mat-slide-toggle [checked]="ativo" (click)="toggleTheme()" color="accent" class="legenda">Modo noturno</mat-slide-toggle>          
         </div>
       </form>      
+
+      <div class="hint mat-elevation-z4">
+        <div class="texto">
+          <p class="hint-title"> Logue como Administrator ou Usuário:</p>
+          <p class="hint-text"> email: admin@mail.com senha: 123</p>
+          <p class="hint-text"> email: user@mail.com senha: 123</p>
+        </div>
+
+        
+        <button mat-icon-button (click)="popUp()" >
+          <mat-icon>info</mat-icon>
+        </button>
+      </div>
 </div>

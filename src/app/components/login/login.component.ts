@@ -59,4 +59,8 @@ export class LoginComponent implements OnInit {
     }
   }
 
+  popUp() {
+    let hint = document.querySelector('.hint');
+    hint.classList.toggle('hint-popup');
+  }
 }
