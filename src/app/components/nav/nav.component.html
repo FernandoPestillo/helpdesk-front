@@ -24,6 +24,10 @@
           <i class="material-icons">support</i>
           Chamados
         </a>
+        <a mat-list-item routerLink="produtos" >
+          <i class="material-icons">shopping_cart</i>
+          Produtos
+        </a>
         <a [disabled]="true" mat-list-item href="https://github.com/FernandoPestillo/helpdesk-front" target="_blank" >
             <i class="material-icons">code</i>
             Github
@@ -45,7 +49,7 @@
 
 
   
-    <div class="sidenav-content">
+    <div #container class="sidenav-content">
       <app-header></app-header>
       <button class="menu mat-elevation-z12" (click)="drawer.toggle()" mat-icon-button>
         <mat-icon>menu</mat-icon>

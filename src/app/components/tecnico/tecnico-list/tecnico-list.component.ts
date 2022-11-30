@@ -31,6 +31,7 @@ export class TecnicoListComponent implements OnInit {
       this.ELEMENT_DATA = resposta
       this.dataSource = new MatTableDataSource<Tecnico>(resposta);
       this.dataSource.paginator = this.paginator;
+      console.log(resposta)
     })
   }
 

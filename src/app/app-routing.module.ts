@@ -12,6 +12,8 @@ import { ClienteUpdateComponent } from './components/cliente/cliente-update/clie
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavComponent } from './components/nav/nav.component';
+import { ProdutoCreateComponent } from './components/produto/produto-create/produto-create.component';
+import { ProdutoListComponent } from './components/produto/produto-list/produto-list.component';
 import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecnico-create.component';
 import { TecnicoDeleteComponent } from './components/tecnico/tecnico-delete/tecnico-delete.component';
 import { TecnicoListComponent } from './components/tecnico/tecnico-list/tecnico-list.component';
@@ -39,6 +41,11 @@ const routes: Routes = [
       { path: 'chamados/create', component: ChamadoCreateComponent},
       { path: 'chamados/update/:id', component: ChamadoUpdateComponent},
       { path: 'chamados/read/:id', component: ChamadoReadComponent},
+
+      { path: 'produtos', component: ProdutoListComponent},
+      { path: 'produtos/create', component: ProdutoCreateComponent},
+
+
 
 
 

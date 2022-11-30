@@ -49,6 +49,9 @@ import { ChamadoListComponent } from './components/chamado/chamado-list/chamado-
 import { ChamadoCreateComponent } from './components/chamado/chamado-create/chamado-create.component';
 import { ChamadoUpdateComponent } from './components/chamado/chamado-update/chamado-update.component';
 import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-read.component';
+import { ProdutoListComponent } from './components/produto/produto-list/produto-list.component';
+import { ProdutoCreateComponent } from './components/produto/produto-create/produto-create.component';
+import { FileUploadComponent } from './components/file-upload/file-upload.component';
 
 
 export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
@@ -71,7 +74,10 @@ export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
     ChamadoListComponent,
     ChamadoCreateComponent,
     ChamadoUpdateComponent,
-    ChamadoReadComponent
+    ChamadoReadComponent,
+    ProdutoListComponent,
+    ProdutoCreateComponent,
+    FileUploadComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,48 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+table {
+    width: 100%;
+  }
+
+.mat-column-id, .mat-column-nome, .mat-column-foto, .mat-column-categoria, .mat-column-acoes, .mat-column-filter, .filter,  .mat-stroked-button{
+ background-color: var(--contraste);
+ color: var(--text-body);
+}
+  
+  mat-form-field{
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .edit{
+    color: rgba(43,195,210,1);
+  }
+
+  .read{
+    color: rgb(94, 212, 47);
+  }
+
+  mat-radio-group{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+  -webkit-box-shadow: 0 0 0 30px var(--body) inset !important;
+  -webkit-text-fill-color: var(--text-body) !important;
+}
