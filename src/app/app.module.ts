@@ -52,6 +52,9 @@ import { ChamadoReadComponent } from './components/chamado/chamado-read/chamado-
 import { ProdutoListComponent } from './components/produto/produto-list/produto-list.component';
 import { ProdutoCreateComponent } from './components/produto/produto-create/produto-create.component';
 import { FileUploadComponent } from './components/file-upload/file-upload.component';
+import { ProdutoUpdateComponent } from './components/produto/produto-update/produto-update.component';
+import { ProdutoReadComponent } from './components/produto/produto-read/produto-read.component';
+import { ProdutoDeleteComponent } from './components/produto/produto-delete/produto-delete.component';
 
 
 export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
@@ -77,7 +80,10 @@ export const options: Partial<IConfig> | (() => Partial<IConfig>) = null;
     ChamadoReadComponent,
     ProdutoListComponent,
     ProdutoCreateComponent,
-    FileUploadComponent
+    FileUploadComponent,
+    ProdutoUpdateComponent,
+    ProdutoReadComponent,
+    ProdutoDeleteComponent
   ],
   imports: [
     BrowserModule,
